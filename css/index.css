@@ -1,0 +1,382 @@
+/* Headings & Body Styles */
+html {
+    scroll-behavior: smooth;
+}
+.heading1 {
+    font-size: 36px;
+    font-weight:400;
+}
+
+.colorPurple {
+    color: #716BF2;
+}
+
+.topnav:hover {
+    cursor: pointer;
+}
+
+.navItem:hover {
+    color: #716BF2 !important;
+}
+
+
+h1{
+    display: inline;
+}
+
+.heading2 {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 27px;
+}
+
+.heading3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heading4 {
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.heading5{
+    font-size: 16px;
+}
+
+.body {
+    font-family: "Libre Franklin";
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: white;
+    height: 75px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    font-family: "Cedarville Cursive";
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.topnav a {
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+}
+
+/* Header: Text & Images */
+.header {
+    position: relative;
+}
+
+.headerText {
+    font-family: "Libre Franklin";
+    padding-left: 30px;
+    position: relative;
+    top: -200px;
+
+}
+
+.overlapStone {
+    padding-left: 140px;
+    padding-top: 170px;
+    padding-bottom: 0px;
+    z-index: -1;
+
+}
+
+.otherStones {
+    padding-left: 412px;
+    position: relative;
+    top: -430px;
+    width: auto;
+    height: 70px;
+}
+
+/* Featured Works */
+.featuredWorks_headings {
+    padding: 30px;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.card-img-top {
+    height: 450px;
+    width: 200px;
+}
+
+.card1 {
+    background-color:#FECF90;
+}
+
+.card1:hover {
+    background-image: url(../images/svg_goFarm_hoverState.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+    z-index: 10;
+}
+
+.card-img-top:hover {
+    opacity: 0%;
+}
+
+.goFarm-iphone {
+    padding: 20px;
+}
+
+.card2 {
+    background-color: #AEE0DA;
+}
+
+.card2:hover {
+    background-image: url(../images/svg_travelEasy_hoverState.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s ease-in;
+    z-index: 10;
+}
+
+.travelEasy-grid {
+    object-fit: cover;
+}
+
+.card3 {
+    background-color:#B1CFE9;
+}
+
+.card3:hover {
+    background-image: url(../images/_svg_usde_hoverState.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s ease-out;
+    z-index: 10;
+}
+
+/* Tools & Skills */
+.lightGrey_container {
+    background-color: #F6F6F6;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.toolsSkills_headings {
+    padding: 73px;
+}
+
+.learnmore_info {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.downloadResume {
+    color: white;
+    background-color: #716BF2;
+    border: none;
+    padding: 10 25 10 25;
+    border-radius: 8px;
+}
+
+.downloadResume:hover{
+    background-color: #3E3B86;
+}
+
+/* Tools & Skills */
+.TS_container {
+    padding-top: 180px;
+}
+
+.tools-skills-deck {
+    display: flex;
+    flex-direction: row;
+    left: 520px;
+    top: -230px;
+}
+
+.skills_card, .tools_card {
+    display: block;
+    margin: 15px;
+    padding: 60px;
+    list-style-type: none;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills_icon, .skills-body, .tools_icon, .tools-body {
+    padding-left: 40px;
+}
+
+.skills-title, .tools-title {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+li{
+    line-height: 40px;
+}
+
+/* Mountain Image & About Me */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.mountainImage {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutmeBox { 
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    padding: 20px;
+    width: 900px;
+    height: 235px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wave{
+    width: 225px;
+    height: 225px;
+    padding: 40px;
+}
+
+.text {
+    display: block;
+    padding-bottom: 27px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 10px;
+    background-color: white;
+    border: none; 
+    position: absolute;
+    
+}
+
+.arrow{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+
+
+/* Contact Information Section */
+.contactInfo {
+    width: 100%;
+    height: 225px;
+    background-color: #F6F6F6;
+    display: block;
+    text-align: center;
+}
+
+.cta {
+    font-weight: 200;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.contactText {
+    display: block;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.heading5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+}
+
+.bottomnav {
+    display: flex;
+    align-items: center;
+    bottom:0;
+    left: 0;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+
+.email {
+   padding: 10px 30px;
+}
+
+.linktedin {
+   padding: 10px 10px;
+}
+
+.email:hover, .linktedin:hover {
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1130px){
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+       font-size: 15px;
+    }
+    
+    .otherStones {
+        display: none;
+    }
+    
+    .container-fluid {
+        margin: 15px;
+    }
+    
+    .goFarm_cardContainer, .travelEasy_cardContainer, .usde_cardContainer {
+        margin: 10px;
+    }
+    
+    .TS_container, .tools-skills-deck {
+        display: block;
+        left: 0px;
+        top: 0px;
+        padding-bottom: 90px;
+    }
+    
+    .aboutmeBox {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    margin: 15px;
+    flex-direction: row;
+    }
+    
+    .mountainImage {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+}
